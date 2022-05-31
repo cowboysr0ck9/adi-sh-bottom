@@ -1,0 +1,706 @@
+* {
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.util-text-center {
+  text-align: center;
+}
+
+.no-px {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.main-holder {
+  max-width: 1440px;
+  margin: 0 auto 40px auto;
+}
+
+.smart-home-brand-holder {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  max-width: 1440px;
+  gap: 24px;
+}
+
+.smart-home-brand-card {
+  background: #f2f3f5;
+  border-radius: 6px;
+  width: 220px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-logo {
+  width: 60%;
+}
+
+.yale-logo {
+  width: 40%;
+}
+
+.smart-home-brand-title {
+  max-width: 733px;
+  font-size: 36px;
+  margin: 2rem auto 0 auto;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #002856;
+}
+
+.smart-home-grid-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #002856;
+  letter-spacing: 0;
+  line-height: 48px;
+  margin: 0;
+}
+
+.smart-home-grid-copy {
+  font-size: 18px;
+  color: #002856;
+  letter-spacing: 0;
+  line-height: 18px;
+  font-weight: 500;
+  margin: 0 0 1.5rem 0;
+}
+
+.grid-image {
+  position: relative;
+  border-radius: 4px;
+}
+
+.grid-image:after {
+  content: attr(data-image-title);
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  position: absolute;
+  border-radius: 0 0 4px 4px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #f7f7f7;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+}
+
+.adi-hero-grid-container-connect {
+  display: grid;
+  grid-template-columns: 470px 234px 234px 470px;
+  grid-template-rows: repeat(2, 222px);
+  gap: 10px 10px;
+  grid-template-areas:
+    "card-1 card-2 card-4 card-6"
+    "card-1 card-3 card-5 card-6";
+  width: 100%;
+  height: 100%;
+}
+
+.adi-hero-grid-container-connect .card-1 {
+  background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/connect/Wifi Routers & Networks.jpg");
+}
+
+.adi-hero-grid-container-connect .card-2 {
+  background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/connect/Smart TVs BG.jpg");
+}
+
+.adi-hero-grid-container-connect .card-3 {
+  background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/connect/Wireless Audio & Speakers.jpg");
+}
+
+.adi-hero-grid-container-connect .card-4 {
+  background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/connect/Garage Door Openers.jpg");
+}
+
+.adi-hero-grid-container-connect .card-5 {
+  background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/connect/Outdoors Speakers.jpg");
+}
+
+.adi-hero-grid-container-connect .card-6 {
+  background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/connect/Home Hubs & Voice Assistants.jpg");
+}
+
+/* End of Connect Image Grid */
+.card-1 {
+  grid-area: card-1;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-2 {
+  grid-area: card-2;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-3 {
+  grid-area: card-3;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-4 {
+  grid-area: card-4;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-5 {
+  grid-area: card-5;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-6 {
+  grid-area: card-6;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.adi-hero-grid-container-conserve {
+  display: grid;
+  grid-template-columns: 595px 591px 234px;
+  grid-template-rows: repeat(2, 222px);
+  gap: 10px 10px;
+  grid-template-areas:
+    "card-1 card-2 card-3"
+    "card-1 card-2 card-4";
+  width: 100%;
+  height: 100%;
+}
+
+/* Start of conserve Image Grid */
+.adi-hero-grid-container-conserve .card-1 {
+  background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/conserve/smart-thermostas.jpg");
+}
+
+.adi-hero-grid-container-conserve .card-2 {
+  background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/conserve/smart-dimmers.jpg");
+}
+
+.adi-hero-grid-container-conserve .card-3 {
+  background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/conserve/smart-plugs.jpg");
+}
+
+.adi-hero-grid-container-conserve .card-4 {
+  background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/conserve/smart-sprinkler.jpg");
+}
+/* End of conserve Image Grid */
+
+.adi-hero-grid-container-protect {
+  display: grid;
+  grid-template-columns: 470px 234px 234px 470px;
+  grid-template-rows: repeat(2, 222px);
+  gap: 10px 10px;
+  grid-template-areas:
+    "card-1 card-2 card-3 card-5"
+    "card-1 card-2 card-4 card-5";
+  width: 100%;
+  height: 100%;
+}
+
+/* Start of Protect Image Grid */
+.adi-hero-grid-container-protect .card-1 {
+  background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/protect/security-alarm.jpg");
+}
+
+.adi-hero-grid-container-protect .card-2 {
+  background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/protect/ring-doorbell.jpg");
+}
+
+.adi-hero-grid-container-protect .card-3 {
+  background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/protect/smart-indoor-camera.jpg");
+}
+
+.adi-hero-grid-container-protect .card-4 {
+  background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/protect/smart-outdoor-camera.jpg");
+}
+
+.adi-hero-grid-container-protect .card-5 {
+  background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/protect/smart-lock.jpg");
+}
+
+/* Featured Cards */
+
+.smart-home-featured-card-holder {
+  display: flex;
+  width: 1440px;
+  margin: 0 auto 40px auto;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.smart-home-featured-card {
+  display: flex;
+  flex-direction: column;
+  height: 256px;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  padding: 32px;
+  background-repeat: no-repeat;
+  max-width: 708px;
+  flex-grow: 1;
+}
+
+.featured-card-bg-1 {
+  background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/choosing-home-wifi.jpg");
+  background-size: cover;
+}
+
+.featured-card-bg-2 {
+  background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/energy-efficient-thermostat-user.jpg");
+  background-size: cover;
+}
+
+.smart-home-featured-card__title {
+  color: #002856;
+  font-size: 33px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 35px;
+  margin: 0 0 4px 0;
+}
+
+.smart-home-featured-card__copy {
+  color: #002856;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin: 0 0 8px 0;
+  max-width: 357px;
+}
+
+.smart-home-featured-card__button {
+  color: #006ae3;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin: 0;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .smart-home-brand-holder {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    max-width: 1024px;
+    gap: 24px;
+  }
+
+  .smart-home-featured-card-holder {
+    flex-direction: column;
+    width: 1024px;
+  }
+
+  /* Connect Section Tablet */
+  .adi-hero-grid-container-connect {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 200px);
+    grid-template-areas:
+      "card-1 card-1 card-2"
+      "card-1 card-1 card-3"
+      "card-4 card-6 card-6"
+      "card-5 card-6 card-6";
+  }
+
+  .adi-hero-grid-container-connect .card-1 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/connect/Wifi Routers & Networks tablet.jpg");
+  }
+
+  .adi-hero-grid-container-connect .card-2 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/connect/Smart TVs BG tablet.jpg");
+  }
+
+  .adi-hero-grid-container-connect .card-3 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/connect/Wireless Audio & Speakers tablet.jpg");
+  }
+
+  .adi-hero-grid-container-connect .card-4 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/connect/Garage Door Openers tablet.jpg");
+  }
+
+  .adi-hero-grid-container-connect .card-5 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/connect/Outdoors Speakers tablet.jpg");
+  }
+
+  .adi-hero-grid-container-connect .card-6 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/connect/Home Hubs & Voice Assistants tablet.jpg");
+  }
+
+  /* Conserve Section */
+  .adi-hero-grid-container-conserve {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 236px);
+    grid-template-areas:
+      "card-1 card-1 card-1"
+      "card-1 card-1 card-1"
+      "card-3 card-2 card-2"
+      "card-4 card-2 card-2";
+  }
+
+  /* Start of conserve Image Grid */
+  .adi-hero-grid-container-conserve .card-1 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/conserve/smart-thermostas tablet.jpg");
+  }
+
+  .adi-hero-grid-container-conserve .card-2 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/conserve/smart-dimmers-tablet.jpg");
+  }
+
+  .adi-hero-grid-container-conserve .card-3 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/conserve/smart-plugs-tablet.jpg");
+  }
+
+  .adi-hero-grid-container-conserve .card-4 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/conserve/smart-sprinkler-tablet.jpg");
+  }
+
+  /* Start of Protect Image Grid */
+  .adi-hero-grid-container-protect {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 236px);
+    grid-template-areas:
+      "card-1 card-1 card-2"
+      "card-1 card-1 card-2"
+      "card-3 card-5 card-5"
+      "card-4 card-5 card-5";
+  }
+
+  .adi-hero-grid-container-protect .card-1 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/protect/security-alarm-tablet.jpg");
+  }
+
+  .adi-hero-grid-container-protect .card-2 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/protect/ring-doorbell-tablet.jpg");
+  }
+
+  .adi-hero-grid-container-protect .card-3 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/protect/smart-indoor-camera-tablet.jpg");
+  }
+
+  .adi-hero-grid-container-protect .card-4 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/protect/smart-outdoor-camera-tablet.jpg");
+  }
+
+  .adi-hero-grid-container-protect .card-5 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/protect/smart-lock-tablet.jpg");
+  }
+}
+
+/* Tablet View */
+@media only screen and (max-width: 768px) {
+  .main-holder {
+    margin: 0 auto 20px auto;
+  }
+
+  .smart-home-featured-card-holder {
+    display: flex;
+    width: calc(768px - 30px);
+    margin: 0 auto 20px 0;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .smart-home-featured-card {
+    height: 133px;
+    padding: 8px;
+    max-width: 364px;
+  }
+
+  .smart-home-featured-card__title {
+    font-size: 22px;
+    line-height: 22px;
+    margin: 0 0 4px 0;
+  }
+
+  .smart-home-featured-card__copy {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 0 18px 0;
+    max-width: 224px;
+  }
+
+  .smart-home-featured-card__button {
+    color: #006ae3;
+    font-size: 16px;
+  }
+}
+
+/* Mobile View */
+@media only screen and (max-width: 500px) {
+  .smart-home-featured-card-holder {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .smart-home-brand-title {
+    max-width: 355px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 1;
+    text-align: center;
+    color: #0c2239;
+  }
+
+  .smart-home-grid-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0c2239;
+    letter-spacing: 0;
+    line-height: 48px;
+    margin: 0;
+  }
+
+  .smart-home-featured-card {
+    height: 133px;
+    padding: 8px;
+    max-width: 100%;
+  }
+
+  .smart-home-brand-holder {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    max-width: 500px;
+    gap: 20px;
+  }
+
+  .smart-home-brand-card {
+    width: 167px;
+    height: 90px;
+  }
+
+  .brand-logo {
+    width: 60%;
+  }
+
+  .yale-logo {
+    width: 40%;
+  }
+  /* Connect Section Tablet */
+  .adi-hero-grid-container-connect {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 164px);
+    grid-template-areas:
+      "card-1 card-1"
+      "card-1 card-1"
+      "card-2 card-3"
+      "card-4 card-5"
+      "card-6 card-6"
+      "card-6 card-6";
+  }
+
+  .adi-hero-grid-container-connect .card-1 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/connect/Wifi Routers & Networks mobile.jpg");
+  }
+
+  .adi-hero-grid-container-connect .card-2 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/connect/Smart TVs BG mobile.jpg");
+  }
+
+  .adi-hero-grid-container-connect .card-3 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/connect/Wireless Audio & Speakers mobile.jpg");
+  }
+
+  .adi-hero-grid-container-connect .card-4 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/connect/Garage Door Openers mobile.jpg");
+  }
+
+  .adi-hero-grid-container-connect .card-5 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/connect/Outdoors Speakers mobile.jpg");
+  }
+
+  .adi-hero-grid-container-connect .card-6 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/connect/Home Hubs & Voice Assistants mobile.jpg");
+  }
+
+  /* Conserve Section */
+  .adi-hero-grid-container-conserve {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 328px 164px 328px;
+    grid-template-areas:
+      "card-1 card-1"
+      "card-4 card-3"
+      "card-2 card-2";
+  }
+
+  /* Start of conserve Image Grid */
+  .adi-hero-grid-container-conserve .card-1 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/conserve/smart-thermostas mobile.jpg");
+  }
+
+  .adi-hero-grid-container-conserve .card-2 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/conserve/smart-dimmers-mobile.jpg");
+  }
+
+  .adi-hero-grid-container-conserve .card-3 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/conserve/smart-plugs-mobile.jpg");
+  }
+
+  .adi-hero-grid-container-conserve .card-4 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/conserve/smart-sprinkler-mobile.jpg");
+  }
+
+  /* Protect Section */
+
+  .adi-hero-grid-container-protect {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 328px 220px 164px 328px;
+    grid-template-areas:
+      "card-1 card-1"
+      "card-2 card-2"
+      "card-3 card-4"
+      "card-5 card-5";
+  }
+
+  .adi-hero-grid-container-protect .card-1 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/protect/security-alarm-mobile.jpg");
+  }
+
+  .adi-hero-grid-container-protect .card-2 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/protect/ring-doorbell-mobile.jpg");
+  }
+
+  .adi-hero-grid-container-protect .card-3 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/protect/smart-indoor-camera-mobile.jpg");
+  }
+
+  .adi-hero-grid-container-protect .card-4 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/protect/smart-outdoor-camera-mobile.jpg");
+  }
+
+  .adi-hero-grid-container-protect .card-5 {
+    background-image: url("https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/protect/smart-lock-mobile.jpg");
+  }
+
+  /* Featured Cards */
+
+  .smart-home-featured-card {
+    display: flex;
+    flex-direction: column;
+    height: 129px;
+    border-radius: 4px;
+    padding: 12px;
+  }
+
+  .smart-home-featured-card__title {
+    font-size: 22px;
+    line-height: 1;
+    margin: 0 0 4px 0;
+  }
+
+  .smart-home-featured-card__copy {
+    font-size: 12px;
+    line-height: 1.33;
+    margin: 0 0 8px 0;
+    max-width: 216px;
+  }
+
+  .smart-home-featured-card__button {
+    font-size: 14px;
+  }
+  .featured-card-bg-1 {
+    background-image: url(https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/choosing-home-wifi-mobile.jpg);
+    background-size: cover;
+  }
+  .featured-card-bg-2 {
+    background-image: url(https://cdn.adiglobaldistribution.us/userfile-na/US/userfiles/smart-home-2/energy-efficient-thermostat-user-mobile.jpg);
+    background-size: cover;
+  }
+}
+/* Tyler Carousel CSS */
+.mobileHomeMap {
+  margin-bottom: 20px;
+}
+
+.mobileHomeMap .carousel {
+  width: 100%;
+  height: 310px;
+}
+
+.mobileHomeMap .slider {
+  overflow: visible !important;
+}
+
+/* ADI Team CSS */
+
+/* .carousel-root.mobileHomeMap .carousel.carousel-slider {
+  height: 280px;
+} */
+.best-selling-container.current .best-selling-container-action button {
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+.adi-hero-card--shop-more .adi-hero-card--shop-more-link {
+  color: #004da6 !important;
+  font-weight: 800;
+  border: 2px solid #004da6;
+}
+
+.adi-hero-card--shop-more .adi-hero-card--shop-more-link:hover {
+  background-color: #004da6;
+  border: 2px solid #004da6;
+}
+
+.link-toolbar-item.useful-links
+  .link-toolbar-item-body
+  .link-toolbar-link
+  .fa-angle-right:before {
+  font-size: 18px;
+  top: 2px;
+  position: relative;
+}
+
+.adi-hero-card--product-meta .adi-hero-card--product-meta-link {
+  color: #006ae3 !important;
+}
+.adi-hero-card--product-meta .adi-hero-card--product-meta-name {
+  color: #222;
+}
+
+#adi-hero-holder .p-rel.adi--card-list {
+  margin: 0;
+}
+
+#adi-hero-holder .p-rel.adi--card-list {
+  margin: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .best-selling-item-container .columns {
+    padding: 0px 5px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .best-selling-item-title {
+    height: auto;
+  }
+}
