@@ -14,7 +14,7 @@
 
 .main-holder {
   max-width: 1440px;
-  margin: 0 auto 40px auto;
+  margin: 0 auto 30px auto;
 }
 
 .smart-home-brand-holder {
@@ -45,9 +45,8 @@
 }
 
 .smart-home-brand-title {
-  max-width: 733px;
   font-size: 36px;
-  margin: 2rem auto 0 auto;
+  margin-top: 28px 0 10 0;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -308,7 +307,20 @@
     flex-wrap: wrap;
     margin-top: 16px;
     max-width: 1024px;
-    gap: 24px;
+    gap: 13px;
+  }
+
+  .smart-home-brand-card {
+    width: 130px;
+    height: 75px;
+  }
+
+  .brand-logo {
+    width: 70%;
+  }
+
+  .yale-logo {
+    width: 40%;
   }
 
   .smart-home-featured-card-holder {
@@ -414,7 +426,7 @@
 /* Tablet View */
 @media only screen and (max-width: 768px) {
   .main-holder {
-    margin: 0 auto 20px auto;
+    margin: 0 auto 30px auto;
   }
 
   .smart-home-featured-card-holder {
@@ -459,12 +471,13 @@
   }
 
   .smart-home-brand-title {
-    max-width: 355px;
-    margin: 0 auto;
+    max-width: 290px;
+    margin: 20px auto;
     font-size: 30px;
-    font-weight: bold;
     font-stretch: normal;
+    font-style: normal;
     line-height: 1;
+    letter-spacing: normal;
     text-align: center;
     color: #0c2239;
   }
