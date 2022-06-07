@@ -92,11 +92,11 @@
   position: absolute;
   border-radius: 0 0 4px 4px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 800;
   color: #f7f7f7;
   letter-spacing: 0;
   text-align: center;
-  line-height: 18px;
+  line-height: 1.1;
 }
 
 .adi-hero-grid-container-connect {
@@ -324,8 +324,12 @@
   }
 
   .smart-home-featured-card-holder {
-    flex-direction: column;
+    flex-direction: row;
     width: 1024px;
+  }
+
+  .smart-home-featured-card {
+    max-width: calc(100% - 60px);
   }
 
   /* Connect Section Tablet */
@@ -440,7 +444,7 @@
   .smart-home-featured-card {
     height: 133px;
     padding: 8px;
-    max-width: 364px;
+    max-width: 344px;
   }
 
   .smart-home-featured-card__title {
@@ -483,12 +487,16 @@
   }
 
   .smart-home-grid-title {
-    font-size: 36px;
-    font-weight: 700;
-    color: #0c2239;
-    letter-spacing: 0;
-    line-height: 48px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #002856;
+    line-height: 1;
     margin: 0;
+  }
+
+  .smart-home-grid-copy {
+    margin: 0 0 8px 0;
+    font-size: 14px;
   }
 
   .smart-home-featured-card {
@@ -673,17 +681,6 @@
   margin-top: 25px;
 }
 
-.adi-hero-card--shop-more .adi-hero-card--shop-more-link {
-  color: #004da6 !important;
-  font-weight: 800;
-  border: 2px solid #004da6;
-}
-
-.adi-hero-card--shop-more .adi-hero-card--shop-more-link:hover {
-  background-color: #004da6;
-  border: 2px solid #004da6;
-}
-
 .link-toolbar-item.useful-links
   .link-toolbar-item-body
   .link-toolbar-link
@@ -693,13 +690,6 @@
   position: relative;
 }
 
-.adi-hero-card--product-meta .adi-hero-card--product-meta-link {
-  color: #006ae3 !important;
-}
-.adi-hero-card--product-meta .adi-hero-card--product-meta-name {
-  color: #222;
-}
-
 #adi-hero-holder .p-rel.adi--card-list {
   margin: 0;
 }
@@ -707,6 +697,17 @@
 #adi-hero-holder .p-rel.adi--card-list {
   margin: 0;
 }
+
+.adi-hero-card--shop-more .adi-hero-card--shop-more-link {
+  color: #002856 !important;
+  font-weight: 800;
+  border: 2px solid #004da6;
+}
+.adi-hero-card--shop-more .adi-hero-card--shop-more-link:hover {
+  background-color: #004da6;
+  border: 2px solid #004da6;
+}
+
 @media only screen and (max-width: 1080px) {
   .best-selling-item-container .columns {
     padding: 0px 5px;
